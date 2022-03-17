@@ -33,5 +33,71 @@ a {
 
 .nav-links li {
     margin-left: 20px;
-    font-weight: 400;
+    font-weight: 300;
 }
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.hero-big {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.hero-small {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 32px;
+    margin: 8px 0px;
+    border-radius: 10px;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+}
+
+.rand-info {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px 0px;
+}
+.rand-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.item {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 20px;
+}
+
+.item img {
+    width: 175px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
